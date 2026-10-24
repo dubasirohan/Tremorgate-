@@ -1,0 +1,515 @@
+{
+  "evaluation_level": "subject",
+  "aggregation": "mean positive-class probability across subject windows",
+  "decision_threshold": 0.5,
+  "selected_epoch": 15,
+  "test_subject_count": 58,
+  "accuracy": 0.8275862068965517,
+  "balanced_accuracy": 0.8605072463768115,
+  "precision_positive": 0.9736842105263158,
+  "recall_positive": 0.8043478260869565,
+  "f1_positive": 0.8809523809523809,
+  "confusion_matrix": [
+    [
+      11,
+      1
+    ],
+    [
+      9,
+      37
+    ]
+  ],
+  "classification_report": {
+    "healthy_control": {
+      "precision": 0.55,
+      "recall": 0.9166666666666666,
+      "f1-score": 0.6875,
+      "support": 12.0
+    },
+    "tremor_associated": {
+      "precision": 0.9736842105263158,
+      "recall": 0.8043478260869565,
+      "f1-score": 0.8809523809523809,
+      "support": 46.0
+    },
+    "accuracy": 0.8275862068965517,
+    "macro avg": {
+      "precision": 0.7618421052631579,
+      "recall": 0.8605072463768115,
+      "f1-score": 0.7842261904761905,
+      "support": 58.0
+    },
+    "weighted avg": {
+      "precision": 0.8860254083484574,
+      "recall": 0.8275862068965517,
+      "f1-score": 0.840927750410509,
+      "support": 58.0
+    }
+  },
+  "subjects": [
+    {
+      "subject_id": "003",
+      "diagnosis": "Healthy",
+      "true_label": 0,
+      "predicted_label": 0,
+      "mean_positive_probability": 0.4723315679348341,
+      "window_count": 202
+    },
+    {
+      "subject_id": "009",
+      "diagnosis": "Parkinson's",
+      "true_label": 1,
+      "predicted_label": 1,
+      "mean_positive_probability": 0.9134562683872657,
+      "window_count": 202
+    },
+    {
+      "subject_id": "014",
+      "diagnosis": "Parkinson's",
+      "true_label": 1,
+      "predicted_label": 1,
+      "mean_positive_probability": 0.5118003894418183,
+      "window_count": 202
+    },
+    {
+      "subject_id": "021",
+      "diagnosis": "Healthy",
+      "true_label": 0,
+      "predicted_label": 0,
+      "mean_positive_probability": 0.4304695822526747,
+      "window_count": 202
+    },
+    {
+      "subject_id": "028",
+      "diagnosis": "Parkinson's",
+      "true_label": 1,
+      "predicted_label": 1,
+      "mean_positive_probability": 0.7063623828315498,
+      "window_count": 202
+    },
+    {
+      "subject_id": "053",
+      "diagnosis": "Parkinson's",
+      "true_label": 1,
+      "predicted_label": 1,
+      "mean_positive_probability": 0.6791640907931741,
+      "window_count": 202
+    },
+    {
+      "subject_id": "060",
+      "diagnosis": "Parkinson's",
+      "true_label": 1,
+      "predicted_label": 1,
+      "mean_positive_probability": 0.7589650366934809,
+      "window_count": 202
+    },
+    {
+      "subject_id": "063",
+      "diagnosis": "Parkinson's",
+      "true_label": 1,
+      "predicted_label": 1,
+      "mean_positive_probability": 0.5427012248794632,
+      "window_count": 202
+    },
+    {
+      "subject_id": "070",
+      "diagnosis": "Essential Tremor",
+      "true_label": 1,
+      "predicted_label": 1,
+      "mean_positive_probability": 0.627341381430921,
+      "window_count": 202
+    },
+    {
+      "subject_id": "071",
+      "diagnosis": "Parkinson's",
+      "true_label": 1,
+      "predicted_label": 1,
+      "mean_positive_probability": 0.7660019025206566,
+      "window_count": 202
+    },
+    {
+      "subject_id": "082",
+      "diagnosis": "Parkinson's",
+      "true_label": 1,
+      "predicted_label": 1,
+      "mean_positive_probability": 0.6778520409128453,
+      "window_count": 202
+    },
+    {
+      "subject_id": "087",
+      "diagnosis": "Parkinson's",
+      "true_label": 1,
+      "predicted_label": 0,
+      "mean_positive_probability": 0.42172625550244114,
+      "window_count": 202
+    },
+    {
+      "subject_id": "097",
+      "diagnosis": "Healthy",
+      "true_label": 0,
+      "predicted_label": 0,
+      "mean_positive_probability": 0.37083779279105733,
+      "window_count": 202
+    },
+    {
+      "subject_id": "099",
+      "diagnosis": "Parkinson's",
+      "true_label": 1,
+      "predicted_label": 1,
+      "mean_positive_probability": 0.7966608250200158,
+      "window_count": 202
+    },
+    {
+      "subject_id": "100",
+      "diagnosis": "Essential Tremor",
+      "true_label": 1,
+      "predicted_label": 1,
+      "mean_positive_probability": 0.6338601977296985,
+      "window_count": 202
+    },
+    {
+      "subject_id": "104",
+      "diagnosis": "Essential Tremor",
+      "true_label": 1,
+      "predicted_label": 0,
+      "mean_positive_probability": 0.4671713112678268,
+      "window_count": 202
+    },
+    {
+      "subject_id": "129",
+      "diagnosis": "Parkinson's",
+      "true_label": 1,
+      "predicted_label": 1,
+      "mean_positive_probability": 0.7420300819201044,
+      "window_count": 202
+    },
+    {
+      "subject_id": "141",
+      "diagnosis": "Healthy",
+      "true_label": 0,
+      "predicted_label": 0,
+      "mean_positive_probability": 0.4613173706733649,
+      "window_count": 202
+    },
+    {
+      "subject_id": "148",
+      "diagnosis": "Healthy",
+      "true_label": 0,
+      "predicted_label": 0,
+      "mean_positive_probability": 0.46020493113682465,
+      "window_count": 202
+    },
+    {
+      "subject_id": "153",
+      "diagnosis": "Healthy",
+      "true_label": 0,
+      "predicted_label": 1,
+      "mean_positive_probability": 0.5368922217241904,
+      "window_count": 202
+    },
+    {
+      "subject_id": "155",
+      "diagnosis": "Parkinson's",
+      "true_label": 1,
+      "predicted_label": 1,
+      "mean_positive_probability": 0.7184461079316564,
+      "window_count": 202
+    },
+    {
+      "subject_id": "159",
+      "diagnosis": "Parkinson's",
+      "true_label": 1,
+      "predicted_label": 1,
+      "mean_positive_probability": 0.6693947346936359,
+      "window_count": 202
+    },
+    {
+      "subject_id": "163",
+      "diagnosis": "Parkinson's",
+      "true_label": 1,
+      "predicted_label": 1,
+      "mean_positive_probability": 0.677273655453199,
+      "window_count": 202
+    },
+    {
+      "subject_id": "193",
+      "diagnosis": "Healthy",
+      "true_label": 0,
+      "predicted_label": 0,
+      "mean_positive_probability": 0.4450639197695078,
+      "window_count": 202
+    },
+    {
+      "subject_id": "210",
+      "diagnosis": "Parkinson's",
+      "true_label": 1,
+      "predicted_label": 1,
+      "mean_positive_probability": 0.5556735532879277,
+      "window_count": 202
+    },
+    {
+      "subject_id": "215",
+      "diagnosis": "Parkinson's",
+      "true_label": 1,
+      "predicted_label": 1,
+      "mean_positive_probability": 0.5871607184705168,
+      "window_count": 202
+    },
+    {
+      "subject_id": "219",
+      "diagnosis": "Parkinson's",
+      "true_label": 1,
+      "predicted_label": 1,
+      "mean_positive_probability": 0.7142106808611367,
+      "window_count": 202
+    },
+    {
+      "subject_id": "220",
+      "diagnosis": "Parkinson's",
+      "true_label": 1,
+      "predicted_label": 1,
+      "mean_positive_probability": 0.5774337926897968,
+      "window_count": 202
+    },
+    {
+      "subject_id": "223",
+      "diagnosis": "Parkinson's",
+      "true_label": 1,
+      "predicted_label": 1,
+      "mean_positive_probability": 0.7747430278375598,
+      "window_count": 202
+    },
+    {
+      "subject_id": "229",
+      "diagnosis": "Healthy",
+      "true_label": 0,
+      "predicted_label": 0,
+      "mean_positive_probability": 0.4976631791911798,
+      "window_count": 202
+    },
+    {
+      "subject_id": "255",
+      "diagnosis": "Parkinson's",
+      "true_label": 1,
+      "predicted_label": 1,
+      "mean_positive_probability": 0.5796407215518526,
+      "window_count": 202
+    },
+    {
+      "subject_id": "261",
+      "diagnosis": "Parkinson's",
+      "true_label": 1,
+      "predicted_label": 1,
+      "mean_positive_probability": 0.5422607985242168,
+      "window_count": 202
+    },
+    {
+      "subject_id": "270",
+      "diagnosis": "Parkinson's",
+      "true_label": 1,
+      "predicted_label": 0,
+      "mean_positive_probability": 0.48699826776686284,
+      "window_count": 202
+    },
+    {
+      "subject_id": "281",
+      "diagnosis": "Parkinson's",
+      "true_label": 1,
+      "predicted_label": 1,
+      "mean_positive_probability": 0.6261228881776333,
+      "window_count": 202
+    },
+    {
+      "subject_id": "295",
+      "diagnosis": "Healthy",
+      "true_label": 0,
+      "predicted_label": 0,
+      "mean_positive_probability": 0.45798889326282066,
+      "window_count": 202
+    },
+    {
+      "subject_id": "300",
+      "diagnosis": "Parkinson's",
+      "true_label": 1,
+      "predicted_label": 0,
+      "mean_positive_probability": 0.462125809439043,
+      "window_count": 202
+    },
+    {
+      "subject_id": "308",
+      "diagnosis": "Healthy",
+      "true_label": 0,
+      "predicted_label": 0,
+      "mean_positive_probability": 0.46143614436213926,
+      "window_count": 202
+    },
+    {
+      "subject_id": "325",
+      "diagnosis": "Parkinson's",
+      "true_label": 1,
+      "predicted_label": 1,
+      "mean_positive_probability": 0.6728105580452646,
+      "window_count": 202
+    },
+    {
+      "subject_id": "333",
+      "diagnosis": "Parkinson's",
+      "true_label": 1,
+      "predicted_label": 1,
+      "mean_positive_probability": 0.5007828388473775,
+      "window_count": 202
+    },
+    {
+      "subject_id": "343",
+      "diagnosis": "Parkinson's",
+      "true_label": 1,
+      "predicted_label": 1,
+      "mean_positive_probability": 0.6355680270802857,
+      "window_count": 202
+    },
+    {
+      "subject_id": "345",
+      "diagnosis": "Parkinson's",
+      "true_label": 1,
+      "predicted_label": 1,
+      "mean_positive_probability": 0.6518993016221736,
+      "window_count": 202
+    },
+    {
+      "subject_id": "347",
+      "diagnosis": "Parkinson's",
+      "true_label": 1,
+      "predicted_label": 1,
+      "mean_positive_probability": 0.6646117098113098,
+      "window_count": 202
+    },
+    {
+      "subject_id": "351",
+      "diagnosis": "Parkinson's",
+      "true_label": 1,
+      "predicted_label": 1,
+      "mean_positive_probability": 0.7544079008373884,
+      "window_count": 202
+    },
+    {
+      "subject_id": "356",
+      "diagnosis": "Parkinson's",
+      "true_label": 1,
+      "predicted_label": 0,
+      "mean_positive_probability": 0.4539203442043007,
+      "window_count": 202
+    },
+    {
+      "subject_id": "361",
+      "diagnosis": "Parkinson's",
+      "true_label": 1,
+      "predicted_label": 1,
+      "mean_positive_probability": 0.6423148658163477,
+      "window_count": 202
+    },
+    {
+      "subject_id": "371",
+      "diagnosis": "Healthy",
+      "true_label": 0,
+      "predicted_label": 0,
+      "mean_positive_probability": 0.45198058358181525,
+      "window_count": 202
+    },
+    {
+      "subject_id": "375",
+      "diagnosis": "Parkinson's",
+      "true_label": 1,
+      "predicted_label": 1,
+      "mean_positive_probability": 0.8342589694674653,
+      "window_count": 202
+    },
+    {
+      "subject_id": "387",
+      "diagnosis": "Parkinson's",
+      "true_label": 1,
+      "predicted_label": 0,
+      "mean_positive_probability": 0.46586625893037803,
+      "window_count": 202
+    },
+    {
+      "subject_id": "392",
+      "diagnosis": "Parkinson's",
+      "true_label": 1,
+      "predicted_label": 0,
+      "mean_positive_probability": 0.4851429049331363,
+      "window_count": 202
+    },
+    {
+      "subject_id": "394",
+      "diagnosis": "Parkinson's",
+      "true_label": 1,
+      "predicted_label": 0,
+      "mean_positive_probability": 0.4313863510690113,
+      "window_count": 202
+    },
+    {
+      "subject_id": "400",
+      "diagnosis": "Parkinson's",
+      "true_label": 1,
+      "predicted_label": 1,
+      "mean_positive_probability": 0.5851148200212138,
+      "window_count": 202
+    },
+    {
+      "subject_id": "411",
+      "diagnosis": "Parkinson's",
+      "true_label": 1,
+      "predicted_label": 1,
+      "mean_positive_probability": 0.5088349499988674,
+      "window_count": 202
+    },
+    {
+      "subject_id": "436",
+      "diagnosis": "Healthy",
+      "true_label": 0,
+      "predicted_label": 0,
+      "mean_positive_probability": 0.41354612966464593,
+      "window_count": 202
+    },
+    {
+      "subject_id": "443",
+      "diagnosis": "Parkinson's",
+      "true_label": 1,
+      "predicted_label": 1,
+      "mean_positive_probability": 0.551715809298624,
+      "window_count": 202
+    },
+    {
+      "subject_id": "446",
+      "diagnosis": "Parkinson's",
+      "true_label": 1,
+      "predicted_label": 0,
+      "mean_positive_probability": 0.45330520324630313,
+      "window_count": 202
+    },
+    {
+      "subject_id": "454",
+      "diagnosis": "Parkinson's",
+      "true_label": 1,
+      "predicted_label": 1,
+      "mean_positive_probability": 0.6520237258755335,
+      "window_count": 202
+    },
+    {
+      "subject_id": "464",
+      "diagnosis": "Parkinson's",
+      "true_label": 1,
+      "predicted_label": 1,
+      "mean_positive_probability": 0.774229188514228,
+      "window_count": 202
+    },
+    {
+      "subject_id": "467",
+      "diagnosis": "Parkinson's",
+      "true_label": 1,
+      "predicted_label": 1,
+      "mean_positive_probability": 0.8463803333055118,
+      "window_count": 202
+    }
+  ]
+}

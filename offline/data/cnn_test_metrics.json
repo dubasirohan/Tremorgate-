@@ -1,0 +1,13 @@
+{
+  "test_windows": 2424,
+  "test_subjects": 12,
+  "healthy_windows": 404,
+  "positive_windows": 2020,
+  "selected_epoch": 9,
+  "validation_balanced_accuracy": 0.6787128712871286,
+  "accuracy": 0.5057755775577558,
+  "balanced_accuracy": 0.5222772277227723,
+  "precision_positive": 0.8459595959595959,
+  "recall_positive": 0.4975247524752475,
+  "f1_positive": 0.6265586034912718
+}

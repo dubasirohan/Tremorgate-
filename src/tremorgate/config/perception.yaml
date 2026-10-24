@@ -1,0 +1,10 @@
+perception_node:
+  ros__parameters:
+    mode: cnn
+    decision_cutoff: 0.65
+    exit_cutoff: 0.45
+    enter_dwell_windows: 2
+    exit_dwell_windows: 2
+    fs: 100.0
+    fft_threshold: 0.001
+    log_path: tremor_events.jsonl

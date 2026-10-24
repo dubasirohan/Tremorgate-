@@ -1,0 +1,97 @@
+{
+  "accuracy": 0.6591840218504609,
+  "balanced_accuracy": 0.6395375950638542,
+  "precision_positive": 0.8675267027326953,
+  "recall_positive": 0.6730520878174774,
+  "f1_positive": 0.7580146657778316,
+  "confusion_matrix": [
+    [
+      1469,
+      955
+    ],
+    [
+      3038,
+      6254
+    ]
+  ],
+  "classification_report": {
+    "healthy_control": {
+      "precision": 0.32593743066341246,
+      "recall": 0.606023102310231,
+      "f1-score": 0.42389265618236904,
+      "support": 2424.0
+    },
+    "tremor_associated": {
+      "precision": 0.8675267027326953,
+      "recall": 0.6730520878174774,
+      "f1-score": 0.7580146657778316,
+      "support": 9292.0
+    },
+    "accuracy": 0.6591840218504609,
+    "macro avg": {
+      "precision": 0.5967320666980539,
+      "recall": 0.6395375950638542,
+      "f1-score": 0.5909536609801003,
+      "support": 11716.0
+    },
+    "weighted avg": {
+      "precision": 0.7554737498907746,
+      "recall": 0.6591840218504609,
+      "f1-score": 0.688885974137391,
+      "support": 11716.0
+    }
+  },
+  "selected_epoch": 15,
+  "validation_balanced_accuracy": 0.6309549433204189,
+  "test_window_count": 11716,
+  "test_subject_count": 58,
+  "decision_rule": "argmax of two-class softmax probabilities",
+  "checkpoint": "/home/rohan/tremorgate_ws/offline/models/tremor_cnn_expanded_best.pt",
+  "diagnosis_results": {
+    "Essential Tremor": {
+      "windows": 606,
+      "subjects": 3,
+      "accuracy": 0.6287128712871287,
+      "confusion_matrix": [
+        [
+          0,
+          0
+        ],
+        [
+          225,
+          381
+        ]
+      ]
+    },
+    "Healthy": {
+      "windows": 2424,
+      "subjects": 12,
+      "accuracy": 0.606023102310231,
+      "confusion_matrix": [
+        [
+          1469,
+          955
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "Parkinson's": {
+      "windows": 8686,
+      "subjects": 43,
+      "accuracy": 0.6761455215288971,
+      "confusion_matrix": [
+        [
+          0,
+          0
+        ],
+        [
+          2813,
+          5873
+        ]
+      ]
+    }
+  }
+}

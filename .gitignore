@@ -1,0 +1,76 @@
+# ROS 2 generated files
+/build/
+/install/
+/log/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Virtual environments and local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials*
+*secret*
+
+# Raw datasets and generated dataset archives
+/data/
+/data_external/
+/processed/
+/offline/data/*.npz
+/offline/data/*.zip
+/offline/data/**/*.npz
+/offline/data/**/*.zip
+
+# Temporary and backup files
+*.tmp
+*.swp
+*~
+*.bak
+*.backup
+*.before_four_finger
+*.before_four_motor_patch
+*.pre_relative_test_backup
+*.nullbytes_backup
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local sensor recordings and dashboard logs
+/offline/*.csv
+
+# Dashboard backups
+/offline/*backup*.py
+/offline/*before*.py
+/offline/*pre_graph*.py
+/offline/glove_to_arm.py.bak*
+/firmware/arduino/**/*.bak*
+/firmware/arduino/**/*.backup
+/firmware/arduino/**/*.before_*
+/firmware/arduino/**/*.pre_*
+/firmware/arduino/**/*.nullbytes_backup
+
+# Local sensor recordings and dashboard logs
+/offline/flex_dashboard_data*.csv
+/offline/flex_sensor_data.csv
+/offline/glove_arm_dashboard.csv
+
+# Temporary and backup scripts
+/offline/*backup*.py
+/offline/*before*.py
+/offline/*pre_graph*.py
+/offline/glove_to_arm.py.bak*
+/firmware/arduino/**/*.bak*
+/firmware/arduino/**/*.backup
+/firmware/arduino/**/*.before_*
+/firmware/arduino/**/*.pre_*
+/firmware/arduino/**/*.nullbytes_backup
